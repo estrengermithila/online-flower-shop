@@ -1,0 +1,283 @@
+.manrope-normal {
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+.banner-title{
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: rgba(39, 39, 39, 1);
+  margin-top: 80px;
+}
+.banner-des{
+  font-size: 1.125rem;
+  color: rgba(39, 39, 39, 0.6);
+  margin-top: 20px;
+}
+.banner-btn{
+  border-radius: 8px;
+  border: none;
+  background-color: rgba(229, 84, 115, 1);
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 15px ;
+  margin-top: 10px;
+}
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+}
+.banner-content{
+  margin: 190px 90px 140px 240px;
+}
+.banner-image{
+ max-width: 630px;
+  margin: 50px 240px 0 0;
+}
+.header{
+  background-color: rgba(229, 84, 115, 0.1);
+}
+.featuerd-container{
+  width: 90%;
+  /* height: 620px; */
+  margin: 0 auto;
+  /* border: 2px solid green; */
+}
+.featured-content{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.featured-title{
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #272727;
+  margin-top: 100px;
+ 
+}
+.featured-description{
+  font-size: 1.125rem;
+  color: rgba(39, 39, 39, 0.6);
+  margin-top: 20px;
+}
+.featured-image-container{
+  max-width: 1440px;
+ margin: 45px 330px;
+  height: 450px;
+  /* border: 1px solid red; */
+}
+.featured-image-box{
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+
+}
+.first-image{
+  background-color: rgba(167, 33, 98, 0.15);
+  height: 355px;
+  width: 320px;
+  align-items: center;
+ border-radius: 50% 50% 0 0;
+}
+.first-image1{
+  background-color: rgba(5, 151, 160, 0.15);
+  height: 355px;
+  width: 320px;
+  align-items: center;
+ border-radius: 50% 50% 0 0;
+}
+.first-image2{
+  background-color:rgba(71, 125, 17, 0.15);
+  height: 355px;
+  width: 320px;
+  align-items: center;
+ border-radius: 50% 50% 0 0;
+}
+.primary-image{
+ width: 200px;
+ padding: 80px 70px 0;
+}
+.primary-image1{
+ width: 250px;
+ padding: 80px 40px 0;
+}
+.primary-image2{
+ width: 200px;
+ padding: 55px 70px 0;
+ /* background-color: aqua; */
+}
+.team-container{
+  /* margin: 40px 330px; */
+max-width: 1120px;
+margin: 0 auto;
+  /* border: 2px solid red; */
+  margin-bottom: 100px;
+  background-color: rgba(39, 39, 39, 0.05);
+  border-radius: 8px;
+  /* display: flex; */
+}
+.team-section{
+  
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 150px;
+  gap: 30px;
+}
+.single-team{
+  /* border: 2px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.team-image{
+  width: 50px;
+  height: 50px;
+  /* border: 1px solid black; */
+  margin-bottom: 20px;
+}
+.card-container{
+  max-width:90%;
+  margin: 0 auto;
+  /* border: 2px solid green; */
+  display: flex;
+  gap: 100px;
+}
+.card-content{
+  /* border: 1px dashed red; */
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+  text-align: center;
+}
+.card-section{
+  /* border: 3px dotted black; */
+  background-color: rgba(229, 84, 115, 0.05);
+  height: 550px;
+}
+.card-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgba(39, 39, 39, 1);
+  margin-bottom: 15px;
+}
+#off-span{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgba(229, 84, 115, 1);
+}
+.card-description{
+  font-size: 1.125rem;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  margin-bottom: 15px;
+}
+.card-image-content{
+  width: 200px;
+  margin-top: 60px;
+  /* height: 250px; */
+  /* padding: 80px 80px; */
+}
+.img-box img{
+  width: 250px;
+}
+.image-container{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 50px;
+  /* border: 2px solid green; */
+}
+.super-title{
+  font-size: 2.5rem;
+ font-weight: 700;
+ color: rgba(39, 39, 39, 1);
+ text-align: center;
+}
+.super-description{
+  font-size: 1.125rem;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  margin-bottom: 25px;
+}
+#super-btn{
+  width: 100px;
+  height: 40px;
+  border-radius: 8px;
+ background-color: rgba(229, 84, 115, 1);
+ color: white;
+ font-size: 1.25rem;
+ border: none;
+}
+.super-container{
+  /* border: 2px solid green; */
+  height: 400px;
+  /* width: 90%; */
+  margin: 100px 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+ background-image: url('../Rectangle\ 9.png');
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.super-content input{
+width: 400px;
+height: 42px;
+  border-radius: 8px;
+  /* box-shadow: box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;; */
+ border: none;
+ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+ /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+.footer{
+  height: 440px;
+  border: 2px solid black;
+  background-color: rgba(17, 16, 16, 1);
+}
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#footer-title{
+  margin-top: 120px;
+  margin-bottom: 15px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.foot1{
+  color:rgba(229, 84, 115, 1);
+}
+.foot2{
+  color: white;
+}
+.footer-description{
+  color: white;
+  font-size: 1.125rem;
+  text-align: center;
+}
+.footer-des-primary{
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 50px;
+}
